@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        tools:context=".fragments.AddConsumableFragment">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/consumableNameTextInputLayout"
+            style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_consumable_name_edit_text"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/consumableNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/consumablePriceTextInputLayout"
+            style="@style/Widget.Material3.TextInputEditText.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/enter_consumable_price_edit_text"
+            app:endIconMode="clear_text">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/consumablePriceEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            app:cardElevation="4dp"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="8dp">
+
+            <ImageView
+                android:id="@+id/consumableImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/search_image" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <TextView
+            android:id="@+id/selectConsumableImageTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/select_consumable_image_text_view"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/saveConsumableButton"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/save_button" />
+    </LinearLayout>
+</ScrollView>

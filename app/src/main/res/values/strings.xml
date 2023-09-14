@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="consumable_name_text_view">Item Name</string>
+    <string name="consumable_description_text_view">This is about the item</string>
+    <string name="enter_consumable_name_edit_text">Item Name</string>
+    <string name="enter_consumable_price_edit_text">Item Price</string>
+    <string name="select_consumable_image_text_view">Select Image</string>
+    <string name="search_image_button">Search</string>
+    <string name="save_button">Save</string>
+    <string name="enter_item_name_edit_text">Name</string>
+<!--    <string name="fragment_menu_title">Menu</string>-->
+<!--    <string name="fragment_details_title">About</string>-->
+<!--    <string name="fragment_add_title">Add</string>-->
+<!--    <string name="fragment_search_title">Search</string>-->
+    <string name="details_fragment_title">About</string>
+    <string name="add_fragment_title">Add</string>
+    <string name="edit_fragment_title">Edit</string>
+    <string name="search_fragment_title">Search</string>
+</resources>
